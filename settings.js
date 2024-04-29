@@ -43,22 +43,22 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //________________________________________________________________________________________________________
 global.ytname = process.env.YT_NAME || "YT: S4 Salman YT" //ur yt chanel name
 //________________________________________________________________________________________________________
-global.socialm = process.env.MEDIA || "GitHub: iamevilboy" //ur github or insta name
+global.socialm = process.env.MEDIA || "GitHub: feranmi245" //ur github or insta name
 //________________________________________________________________________________________________________
-global.location = process.env.GL_INFO || "libya, tripolli, libya" //ur location
+global.location = process.env.GL_INFO || "nigeria, abuja, lagos" //ur location
 //________________________________________________________________________________________________________
 
 //new
 //________________________________________________________________________________________________________
 global.botname = process.env.BOT_NAME || '💚𝐁𝐞𝐜𝐤𝐲^^ 𝐋𝐲𝐧𝐜𝐡-MD💚' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '218944223452' //ur owner number
+global.ownernumber = process.env.SUDO || '2348022159244' //ur owner number
 //________________________________________________________________________________________________________
 global.ownername = process.env.SUDO_NAME || '💚𝐁𝐞𝐜𝐤𝐲^^ 𝐏𝐞𝐭𝐞𝐫💚' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@s4salmanyt"
 //________________________________________________________________________________________________________
-global.wagc = process.env.GL_PUSH || "https://chat.whatsapp.com/D4OPqij4WgoLSCy1t8TnPt"
+global.wagc = process.env.GL_PUSH || "https://chat.whatsapp.com/HMbchS5Xd8jGhTaZ313Slu"
 //________________________________________________________________________________________________________
 global.themeemoji = process.env.GL_EMOJI || '💚'
 //________________________________________________________________________________________________________
@@ -70,11 +70,11 @@ global.packname = process.env.PACK_NAME || "💚𝐁𝐞𝐜𝐤𝐲^•^"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "𝐏𝐞𝐭𝐞𝐫💚"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "233246274343@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "2348022159244@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || ','
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["233246274343"] // Premium User
+global.premium = process.env.GL_VIP || ["2348022159244"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
@@ -89,15 +89,15 @@ global.autoblocknumber = process.env.AUTO_BAN || '212' //set autoblock country c
 //________________________________________________________________________________________________________
 global.antiforeignnumber = process.env.AUTO_BLOCK || '212' //set anti foreign number country code
 //________________________________________________________________________________________________________
-global.welcome = process.env.WELCOME_MSG || false //welcome/left in groups
+global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
 //________________________________________________________________________________________________________
-global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
+global.anticall = process.env.GL_NOCALL || true //bot blocks user when called
 //________________________________________________________________________________________________________
 global.autoswview = process.env.AUTO_STATUS_SEEN || true //auto status/story view
 //________________________________________________________________________________________________________
-global.adminevent = process.env.ANNOUNCE_MSG  || false //show promote/demote message
+global.adminevent = process.env.ANNOUNCE_MSG  || true //show promote/demote message
 //________________________________________________________________________________________________________
-global.groupevent = process.env.GROUP_ANNOUNCE_MSG || false //show update messages in group chat
+global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update messages in group chat
 //________________________________________________________________________________________________________
 
 
@@ -107,7 +107,7 @@ global.mess = {
 	nsfw: '_*Nsfw is disabled in this group, Please tell the admin to enable*_',
     done: '_*Done ✓*_',
     error: '_*I am having error to execute this*_',
-    success: '_*Generated by 𝐁𝐞𝐜𝐤𝐲^^ 𝐏𝐞𝐭𝐞𝐫💚!*_'
+    success: '_*Generated by 𝐊𝐇𝐄𝐌𝐈𝐒 𝐁𝐎𝐓!*_'
 }
 //thumbnail
 global.thumb = fs.readFileSync('./XliconMedia/theme/xliconpic.jpg')
